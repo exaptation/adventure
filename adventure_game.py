@@ -19,7 +19,7 @@ def pre_check(game):
     # Game requires space in order to render correctly.
     # This checks the size of the terminal it is run in and
     # informs the user to expand the size of the terminal
-    # if it is too small and exits gracefully.
+    # If it is too small and exits gracefully.
     ui.clear_screen()
     columns = os.get_terminal_size().columns
     lines = os.get_terminal_size().lines
